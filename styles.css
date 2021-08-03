@@ -81,7 +81,7 @@ body{
     
 
 }
-#output-txt{
+#txt-output{
     font-family: 'Montserrat', sans-serif;
     padding:2rem;
  
@@ -96,6 +96,7 @@ body{
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
     font-size:1.5rem;
+    color:black;
     margin: 3rem;
 
 }
