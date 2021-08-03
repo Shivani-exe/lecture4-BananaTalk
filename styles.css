@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+:root{
+    --dark-blue:#6367FF;
+    --peach:#FFE5B4;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+   overflow: hidden;
+    
+    background-color: var(--dark-blue);
+    background-image: url("images/minion.jpg");
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80rem;
+    
+    
+    
+}
+#container{
+   padding-left:2rem;
+   padding-top:1rem;
+   padding-right: 2rem;
+   padding-bottom: 1rem;
+   background-color: var(--peach);
+   color:var(--dark-blue);
+    
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-width: 2rem;
+
+    
+    width:20rem;
+    text-align: center;
+    
+    margin:auto;
+    
+
+}
+
+
+#txt-input{
+    padding:2rem;
+    
+    width:90%;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.5rem;
+    margin: 3rem;
+    border-style: solid;
+    border-color: var(--dark-blue);
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    background-color: var(--peach);
+    
+
+}
+#btn-translate{
+    font-family:  'Montserrat', sans-serif;
+    background-color: var(--peach);
+    color:var(--dark-blue);
+    width: 6rem;
+    height: 3rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-width:5px;
+    border-style: solid;
+    border-color: var(--peach);
+    align-items: center;
+    margin-left: 35rem;
+    margin-top:0rem;
+    font-weight: bold;
+    
+
+}
+#output-txt{
+    font-family: 'Montserrat', sans-serif;
+    padding:2rem;
+ 
+    width:90%;
+    height: 10vh;
+    border-style: solid;
+    background-color: var(--peach);
+    border-color: var(--dark-blue);
+
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    font-size:1.5rem;
+    margin: 3rem;
+
+}
