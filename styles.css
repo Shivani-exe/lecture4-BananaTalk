@@ -30,10 +30,14 @@ body{
    background-color: var(--peach);
    color:var(--dark-blue);
     
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    border-width: 2rem;
-
+   border-style: solid;
+    border-width: 2px;
+    border-color: var(--dark-blue);
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    
     
     width:20rem;
     text-align: center;
@@ -46,17 +50,20 @@ body{
 
 #txt-input{
     padding:2rem;
-    
+    color:var(--dark-blue);
+    resize: none;
     width:90%;
     font-family: 'Montserrat', sans-serif;
     font-size:1.5rem;
     margin: 3rem;
     border-style: solid;
+    border-width: 2px;
     border-color: var(--dark-blue);
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
+    
     background-color: var(--peach);
     
 
@@ -67,13 +74,13 @@ body{
     color:var(--dark-blue);
     width: 6rem;
     height: 3rem;
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-    border-width:5px;
     border-style: solid;
-    border-color: var(--peach);
+    border-width: 2px;
+    border-color: var(--dark-blue);
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
     align-items: center;
     margin-left: 35rem;
     margin-top:0rem;
@@ -87,10 +94,13 @@ body{
  
     width:90%;
     height: 10vh;
-    border-style: solid;
+    color:var(--dark-blue);
     background-color: var(--peach);
     border-color: var(--dark-blue);
 
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--dark-blue);
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
     border-top-left-radius: 1.5rem;
